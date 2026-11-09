@@ -1,0 +1,26 @@
+# Everything in this repository is published at entergex.com, so only site files belong here.
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+
+# Secrets, signing keys and local settings must never be published
+.env
+.env.*
+*.pem
+*.key
+*.jks
+*.keystore
+*.p12
+*.pfx
+secrets/
+
+# Local tools and previews
+node_modules/
+*.log
+*.tmp
