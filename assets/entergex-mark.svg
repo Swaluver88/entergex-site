@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g fill="none" stroke="#21cae6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M94 50 72 88.1H28L6 50 28 11.9h44Z"/><path d="M30 50h32M50 36l14 14-14 14"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<defs>
+<linearGradient id="frame" x1="20" y1="80" x2="80" y2="20" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#21cae6"/><stop offset=".5" stop-color="#7a5cff"/><stop offset="1" stop-color="#f0386b"/></linearGradient>
+<radialGradient id="void" cx="54" cy="45" r="20" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1b2a6b"/><stop offset="1" stop-color="#060a1c"/></radialGradient>
+<radialGradient id="glow" cx="54" cy="45" r="13" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#9befff" stop-opacity=".85"/><stop offset="1" stop-color="#9befff" stop-opacity="0"/></radialGradient>
+<linearGradient id="ring" x1="3" y1="50" x2="97" y2="50" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#21cae6"/><stop offset="1" stop-color="#b4f1ff"/></linearGradient>
+<clipPath id="hex"><path d="M50 15 80.300 32.500v35L50 85 19.700 67.500v-35Z"/></clipPath>
+</defs>
+<path transform="rotate(-24 50 50)" d="M3 50A47 14 0 0 1 97 50" fill="none" stroke="url(#ring)" stroke-width="3.600" stroke-linecap="round" opacity=".5"/>
+<path d="M50 17 78.600 33.500v33L50 83 21.400 66.500v-33Z" fill="url(#frame)" stroke="url(#frame)" stroke-width="4" stroke-linejoin="round"/>
+<path d="M54 27 70.500 36.500v19L54 65 37.500 55.500v-19Z" fill="url(#void)" stroke="url(#void)" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="54" cy="45" r="13" fill="url(#glow)"/>
+<path d="M54 33.500Q55.400 43.600 65.500 45 55.400 46.400 54 56.500 52.600 46.400 42.500 45 52.600 43.600 54 33.500Z" fill="#fff"/>
+<g clip-path="url(#hex)"><path transform="rotate(-24 50 50)" d="M3 50A47 14 0 0 0 97 50" fill="none" stroke="#060a1c" stroke-width="8" opacity=".5"/></g>
+<g transform="rotate(-24 50 50)">
+<path d="M3 50A47 14 0 0 0 97 50" fill="none" stroke="url(#ring)" stroke-width="3.600" stroke-linecap="round"/>
+<circle cx="88" cy="58.200" r="4.200" fill="#b4f1ff"/>
+</g>
+</svg>
