@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'">
 <title>Maze Sniping &middot; EnterGex</title>
 <meta name="description" content="Maze Sniping is a tower defense game on generated battlefields. Place cannon turrets, bring down the Drone King, then liberate a galaxy of 50,000 drone worlds. Coming soon to Google Play.">
 <link rel="canonical" href="https://entergex.com/maze-sniping/">
-<meta name="theme-color" content="#03050b">
+<meta name="theme-color" content="#0c0c0e">
 <link rel="icon" href="/assets/icon-32.png" type="image/png" sizes="32x32">
 <link rel="apple-touch-icon" href="/assets/icon-192.png">
 <link rel="stylesheet" href="/assets/site.css">
@@ -18,107 +18,135 @@
 <meta property="og:url" content="https://entergex.com/maze-sniping/">
 <meta property="og:image" content="https://entergex.com/assets/feature-graphic.jpg">
 </head>
-<body>
+<body class="ink">
 <a class="skip" href="#main">Skip to content</a>
 <header class="top">
 <div class="wrap bar">
-  <a class="brand" href="/"><img class="mark" src="/assets/entergex-mark.svg" alt="" width="40" height="40"><img class="wordmark" src="/assets/entergex-wordmark.svg" alt="EnterGex home" width="128" height="17"></a>
+  <a class="brand" href="/" aria-label="EnterGex home"><svg viewBox="0 0 100 100" width="38" height="38" aria-hidden="true"><path class="m-ln" transform="rotate(-24 50 50)" d="M3 50A47 14 0 0 1 97 50" stroke-width="3.600" stroke-linecap="round" opacity=".45"/><path class="m-fg" d="M50 15 80.300 32.500v35L50 85 19.700 67.500v-35Z"/><path class="m-bg" d="M54 26 71.300 36v20L54 66 36.700 56V36Z"/><path class="m-fg" d="M54 33.500Q55.400 43.600 65.500 45 55.400 46.400 54 56.500 52.600 46.400 42.500 45 52.600 43.600 54 33.500Z"/><g transform="rotate(-24 50 50)"><path class="m-cut" d="M3 50A47 14 0 0 0 97 50" stroke-width="9"/><path class="m-ln" d="M3 50A47 14 0 0 0 97 50" stroke-width="3.600" stroke-linecap="round"/><circle class="m-fg" cx="88" cy="58.200" r="4.600"/></g></svg><span>EnterGex</span></a>
   <nav class="nav" aria-label="Main">
-    <a href="/products/" aria-current="page">Products</a>
+    <a href="/products/" aria-current="page">Work</a>
     <a href="/solutions/">Solutions</a>
-    <a href="/about/">About</a>
+    <a href="/about/">Company</a>
     <a href="/careers/">Careers</a>
-    <a class="cta" href="/contact/">Contact</a>
+    <a href="/contact/">Contact</a>
   </nav>
 </div>
 </header>
 <main id="main" class="wrap">
-<section class="intro">
-    <span class="chip">Coming soon to Google Play</span>
-    <h1 class="title"><img src="/assets/maze-sniping-wordmark.svg" alt="Maze Sniping" width="614" height="64"></h1>
-    <p class="kicker">Frontier defense</p>
-    <p class="lead">A tower defense game on generated industrial battlefields. Armored drones march along a winding service track, and you decide where your cannon turrets stand. Then take the fight across a galaxy of 50,000 drone worlds.</p>
+<section class="game-head">
+    <span class="label">A game by EnterGex &nbsp;/&nbsp; Coming soon to Google Play</span>
+    <h1><img src="/assets/maze-sniping-wordmark.svg" alt="Maze Sniping" width="614" height="64"></h1>
+    <div class="prose"><p>A tower defense game on generated industrial battlefields. Armored drones march along a winding service track, and you decide where your cannon turrets stand. Then take the fight across a galaxy of 50,000 drone worlds.</p></div>
     <img class="hero-art" src="/assets/landscape-1.jpg" alt="A cannon turret guards the winding track as armored drones advance through the rain." width="1280" height="720">
   </section>
 
-  <section class="columns">
+  <section class="sec">
+    <p class="tag">How it plays</p>
     <div>
-      <h2>How it plays</h2>
-      <ul class="points">
-        <li>Every outpost run generates a new battlefield with a guaranteed enemy route.</li>
-        <li>Start with one free turret and choose its position; a coverage ring shows exactly what it will reach.</li>
-        <li>Destroy drones and clear rounds to earn credits for more turrets.</li>
-        <li>Hold out through four rounds, then bring down the Drone King, a towering six-legged boss with a crown of spires that enrages as it weakens.</li>
-        <li>Earn up to three stars for each victory, and coins to spend on cosmetic turret finishes.</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Drone Universe</h2>
-      <ul class="points">
-        <li>Explore a spiral galaxy of 50,000 drone worlds, from the calm rim to the lethal core.</li>
-        <li>Every world shows its toughness and how many rounds it holds, and a crown marks the worlds ruled by a Drone King.</li>
-        <li>Eight kinds of world, each with its own ground, light and weather: dunes, glaciers in snowfall, magma flats raining embers, toxic swamps under acid rain, crystal fields, storm worlds, rust deserts and glowing abysses.</li>
-        <li>Swift drones, swarms and armored drones join the fight.</li>
-        <li>Liberate worlds to keep your best stars and earn coins, then head for the next world on the way to the core.</li>
-      </ul>
+      <div class="cols two">
+        <div>
+        <ul class="points">
+          <li>Every outpost run generates a new battlefield with a guaranteed enemy route.</li>
+          <li>Start with one free turret and choose its position; a coverage ring shows exactly what it will reach.</li>
+          <li>Destroy drones and clear rounds to earn credits for more turrets.</li>
+        </ul>
+        </div>
+        <div>
+        <ul class="points">
+          <li>Hold out through four rounds, then bring down the Drone King, a towering six-legged boss with a crown of spires that enrages as it weakens.</li>
+          <li>Earn up to three stars for each victory, and coins to spend on cosmetic turret finishes.</li>
+        </ul>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2 class="shots-head">Screenshots</h2>
-    <div class="shots">
-      <img src="/assets/landscape-2.jpg" alt="Lightning strikes beside the rain-soaked outpost after a round is cleared." width="1280" height="720" loading="lazy">
-      <img src="/assets/landscape-3.jpg" alt="A coverage ring previews where a new turret will reach on the wet deck." width="1280" height="720" loading="lazy">
-    </div>
-    <div class="portraits">
-      <img src="/assets/portrait-1.jpg" alt="Portrait view of drones marching along the route in the rain." width="540" height="960" loading="lazy">
-      <img src="/assets/portrait-2.jpg" alt="A cleared round in portrait view, ready for the next wave." width="540" height="960" loading="lazy">
-      <img src="/assets/portrait-3.jpg" alt="Choosing a turret position in portrait view, with its coverage ring shown." width="540" height="960" loading="lazy">
+  <section class="sec">
+    <p class="tag">Drone Universe</p>
+    <div>
+      <div class="cols two">
+        <div>
+        <ul class="points">
+          <li>Explore a spiral galaxy of 50,000 drone worlds, from the calm rim to the lethal core.</li>
+          <li>Every world shows its toughness and how many rounds it holds, and a crown marks the worlds ruled by a Drone King.</li>
+          <li>Swift drones, swarms and armored drones join the fight.</li>
+        </ul>
+        </div>
+        <div>
+        <ul class="points">
+          <li>Eight kinds of world, each with its own ground, light and weather: dunes, glaciers in snowfall, magma flats raining embers, toxic swamps under acid rain, crystal fields, storm worlds, rust deserts and glowing abysses.</li>
+          <li>Liberate worlds to keep your best stars and earn coins, then head for the next world on the way to the core.</li>
+        </ul>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="columns">
+  <section class="sec">
+    <p class="tag">Screenshots</p>
     <div>
-      <h2>Weather that changes the scene</h2>
-      <ul class="points">
-        <li>Clear skies, overcast days, or full storms, with rain falling across the whole map.</li>
-        <li>Wet ground fills with puddles that ripple and reflect your turrets, drones, and lightning.</li>
-        <li>Thunderclouds drift past, and lightning strikes the outskirts.</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Made for your phone</h2>
-      <ul class="points">
-        <li>Play in portrait or landscape; the battlefield and controls adapt to how you hold your phone.</li>
-        <li>Choose Full, Balanced, or Battery graphics.</li>
-        <li>Haptic feedback and Android's back gesture.</li>
-        <li>No ads.</li>
-      </ul>
+      <div class="shots">
+        <img src="/assets/landscape-2.jpg" alt="Lightning strikes beside the rain-soaked outpost after a round is cleared." width="1280" height="720" loading="lazy">
+        <img src="/assets/landscape-3.jpg" alt="A coverage ring previews where a new turret will reach on the wet deck." width="1280" height="720" loading="lazy">
+      </div>
+      <div class="portraits">
+        <img src="/assets/portrait-1.jpg" alt="Portrait view of drones marching along the route in the rain." width="540" height="960" loading="lazy">
+        <img src="/assets/portrait-2.jpg" alt="A cleared round in portrait view, ready for the next wave." width="540" height="960" loading="lazy">
+        <img src="/assets/portrait-3.jpg" alt="Choosing a turret position in portrait view, with its coverage ring shown." width="540" height="960" loading="lazy">
+      </div>
     </div>
   </section>
 
-  <section class="card" id="account">
-    <h2>Your account and your data</h2>
-    <p>Every part of the game works as a guest, with no account. Signing in with Google is optional and shows your name in the game.</p>
-    <p>If you sign in, Google gives the game your basic profile: your name, email address, profile picture and account ID. The game checks Google's sign-in token on your device, keeps only your display name, and discards everything else, including the token. Nothing is sent to EnterGex.</p>
-    <p>Signing out removes your name. To erase everything the game keeps on your device, including coins and the worlds you've liberated, open Settings, choose Account, then Delete my data.</p>
-    <div class="links"><a href="/maze-sniping/privacy-policy.html">Privacy policy</a><a href="/maze-sniping/privacy-policy.html#delete-your-data">How to delete your data</a><a href="/maze-sniping/terms.html">Terms of use</a></div>
+  <section class="sec">
+    <p class="tag">Weather and phone</p>
+    <div>
+      <div class="cols two">
+        <div>
+        <h3>Weather that changes the scene</h3>
+        <ul class="points">
+          <li>Clear skies, overcast days, or full storms, with rain falling across the whole map.</li>
+          <li>Wet ground fills with puddles that ripple and reflect your turrets, drones, and lightning.</li>
+          <li>Thunderclouds drift past, and lightning strikes the outskirts.</li>
+        </ul>
+        </div>
+        <div>
+        <h3>Made for your phone</h3>
+        <ul class="points">
+          <li>Play in portrait or landscape; the battlefield and controls adapt to how you hold your phone.</li>
+          <li>Choose Full, Balanced, or Battery graphics.</li>
+          <li>Haptic feedback and Android&#39;s back gesture.</li>
+          <li>No ads.</li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" id="account">
+    <p class="tag">Your data</p>
+    <div>
+      <h2>Your account and your data.</h2>
+      <div class="prose">
+        <p>Every part of the game works as a guest, with no account. Signing in with Google is optional and shows your name in the game.</p>
+        <p>If you sign in, Google gives the game your basic profile: your name, email address, profile picture and account ID. The game checks Google's sign-in token on your device, keeps only your display name, and discards everything else, including the token. Nothing is sent to EnterGex.</p>
+        <p>Signing out removes your name. To erase everything the game keeps on your device, including coins and the worlds you've liberated, open Settings, choose Account, then Delete my data.</p>
+      </div>
+      <p class="go"><a href="/maze-sniping/privacy-policy.html">Privacy policy</a><a href="/maze-sniping/privacy-policy.html#delete-your-data">How to delete your data</a><a href="/maze-sniping/terms.html">Terms of use</a></p>
+    </div>
   </section>
 </main>
-<footer class="foot">
+<footer class="foot ink">
 <div class="wrap">
+  <div class="word" aria-hidden="true">EnterGex</div>
   <div class="foot-grid">
-    <div class="foot-brand">
-      <a class="brand" href="/"><img class="mark" src="/assets/entergex-mark.svg" alt="" width="40" height="40"><img class="wordmark" src="/assets/entergex-wordmark.svg" alt="EnterGex home" width="128" height="17"></a>
-      <p>An independent studio making games and flight simulation tools.</p>
-    </div>
-    <nav aria-label="Products">
-      <h2>Products</h2>
+    <p>An independent software company. Games, simulation, and the tools around them.</p>
+    <nav aria-label="Work">
+      <h2>Work</h2>
       <ul>
+        <li><a href="/products/">All work</a></li>
         <li><a href="/maze-sniping/">Maze Sniping</a></li>
-        <li><a class="ext" href="https://simpayloads.com/" rel="noopener">SimPayloads</a></li>
         <li><a class="ext" href="https://rturbsim.com/" rel="noopener">RTurbSim</a></li>
-        <li><a href="/products/">All products</a></li>
+        <li><a class="ext" href="https://simpayloads.com/" rel="noopener">SimPayloads</a></li>
       </ul>
     </nav>
     <nav aria-label="Company">
@@ -140,12 +168,11 @@
       </ul>
     </nav>
   </div>
-  <div class="foot-base">
-    <span>&copy; 2026 EnterGex. <a href="mailto:support@entergex.com">support@entergex.com</a></span>
-    <span class="pledge">NO COOKIES &middot; NO SCRIPTS &middot; NO TRACKERS</span>
+  <div class="colophon">
+    <span>&copy; 2026 EnterGex &nbsp;/&nbsp; <a href="mailto:support@entergex.com">support@entergex.com</a></span>
+    <span>This site uses no cookies, no scripts and no trackers. Set in Archivo.</span>
   </div>
 </div>
-<img class="foot-word" src="/assets/entergex-wordmark.svg" alt="" width="485" height="64">
 </footer>
 </body>
 </html>
