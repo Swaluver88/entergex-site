@@ -24,3 +24,6 @@ secrets/
 node_modules/
 *.log
 *.tmp
+
+# The page generator; only the pages it writes are published
+_build/
